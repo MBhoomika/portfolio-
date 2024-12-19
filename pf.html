@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="fp.css">
+    <script src="https://kit.fontawesome.com/70dbee7020.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="../images/logoo.png" class="logo" alt="Logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Technophile</p>
+            <h1>Hi, I'm <span>Bhoomika</span><br> From India</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------about----------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="../images/img.png" alt="Bhoomika">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Bhoomika, a curious learner with a love for technology and creativity. 
+                    Based in Kurnool, I thrive on solving challenges and building meaningful solutions. 
+                    With a keen eye for innovation, I aim to turn ideas into reality. 
+                    Let's collaborate and create something amazing!</p>
+
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>AI & Data Science</span><br>Developing Smart Solutions with AI Algorithms</li>
+                        <li><span>Full-Stack Web Development</span><br>Building Scalable and Dynamic Websites</li>
+                        <li><span>Mobile App Development</span><br>Developing Robust Android/iOS Applications</li>
+                     </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>Coordinating and supporting startup initiatives, and facilitating entrepreneurial growth through CIE.</li>
+                        <li><span>2021 - 2024</span><br>Coordinator at Center for Innovation and Entrepreneurship.</li>
+                        <li><span>2022 - 2023</span><br>Internship at Academor</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025</span><br>B.Tech in Computer Science & Engineering, G Pulla Reddy Engineering College</li>
+                        <li><span>2021</span><br>Higher Secondary Education (12th Grade), Sri Chaitanya</li>
+                        <li><span>2019</span><br>Secondary Education (10th Grade), Montessori A-Camp</li>
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </div>
+
+<!-- -------------services-------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-titlt">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Creating visually appealing and responsive websites.
+                   Designing user-friendly layouts for an excellent browsing experience.
+                   Developing interactive features to enhance engagement.</p>
+                   <a href="#"> Learn more</a>
+                   </div>
+                   <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design </h2>
+                    <p>
+                        Designing visually appealing and user-friendly interfaces.
+                        Creating intuitive workflows for a seamless user experience.
+                        Conducting user research to understand audience needs.</p>
+                        <a href="#"> Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2> Entrepreneurial Support</h2>
+                            <p>
+                                Guiding startups on innovation and business strategies.
+                                Supporting business pitch development and prototyping.</p>
+                                <a href="#"> Learn more</a>
+                        </div>
+        </div>
+    </div>
+ </div>       
+   </div>
+</div>
+<!-- ---------------portofolio------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="../images/hos.png" alt="work-1">
+                <div class="layer">
+                    <h3>Madhu Hospital</h3>
+                    <p>
+                        Created a responsive website for Madhu Hospital to enhance its online presence. 
+                        The site offers easy navigation with key information about services, doctors, appointments, 
+                        and emergency contacts.
+                    </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-- ---------------------------------contact---------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>bhoomikareddy402@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8106931358</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></i></a>
+                <a href="https://www.instagram.com/bhoomikajayaramireddy/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/miduturi-bhoomika"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="Resume.pdf" download class="btn bt2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="Your Name"  class="input text" required>
+                <input type="email" name="email" placeholder="Your Email" class="input text" required>
+                <textarea name="message" rows="6" placeholder="Your Message" class="input text" ></textarea>
+                <button type="submit" class="btn btn2">Sumbit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 Bhoomika . All Rights are Reserved  <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemenu.style.right = "0";
+    }
+    function closemenu()
+    {
+        sidemenu.style.right = "-200";
+    }
+</script>    
+<script>
+    const scriptURL ='https://script.google.com/macros/s/AKfycbzenQsrJqxiwPKZywLNchceqAmZJU4zFyWVRHroN3ZcAa_e73B7Sh7M-clQmsngw2kl/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+
+</html>
